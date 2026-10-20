@@ -1,3 +1,45 @@
+# BRHA: lidt eksstra til seneste lektion
+
+## Ekstra 2026-10-20
+
+- Se mindst en video på https://www.youtube.com/playlist?list=PLE3ovFxnzNpblbg9cylEiOnctg0D24rKz
+- Se gennem listen af videoer for at se om der kan være interessant at se noget på et senere tidspunkt
+- Se også på listen af videoer her: https://www.youtube.com/@DeepLearningAI
+
+# Week 2: Machine learning basics
+
+## Meeting 3
+
+Lesson 7: Supervised learning introduction
+- Goal: Explain classification and regression
+- Activity: Classify fruit or email examples
+
+Lesson 8: Data preprocessing
+- Goal: Teach cleaning and feature preparation
+- Topics: missing values, text cleaning, train/test split
+
+Lesson 9: Intro to scikit-learn
+- Goal: Show a complete ML workflow
+- Activity: Train a logistic regression model
+
+## Meeting 4
+
+Lesson 10: Build a simple spam detector or sentiment model
+- Goal: Use text data for classification
+- Activity: Create a tiny dataset and train a model
+
+Lesson 11: Model evaluation
+- Goal: Explain accuracy and confusion matrix
+- Activity: Discuss what bad accuracy means
+
+Lesson 12: Code lab
+- Goal: Students test their own ideas
+- Activity: Tune parameters and compare results
+
+
+
+## Explain classification and
+
 # Week 2 Starter Code
 
 This folder contains a simple machine learning example for Week 2.
