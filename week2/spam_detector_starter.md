@@ -11,12 +11,37 @@
 ## Meeting 3
 
 Lesson 7: Supervised learning introduction
-- Goal: Explain classification and regression
-- Activity: Classify fruit or email examples
+- Goal: Explain classification and regression 
+- Activity: Use, understand and modify spam_detector_starter.py
+- Activity: Use, understand and modify house_price_predictor.py
+- Add more messages to the training data
+- Try a different model from scikit-learn
+- Look at https://pypi.org/project/scikit-learn/
+- Look at https://scikit-learn.org/stable/
 
 Lesson 8: Data preprocessing
 - Goal: Teach cleaning and feature preparation
 - Topics: missing values, text cleaning, train/test split
+- Activity: Use, understand and modify preperation.py
+  - The code teaches:
+    - how to identify missing values
+    - how to clean a dataset
+    - how to convert categories to numbers
+    - how to prepare features for machine learning
+    - how to train a simple regression model
+  - Modify some of these
+    - Change the dataset
+      - add more students
+      - add new features like sleep_hours, homework_done, or motivation
+    - Change the target
+      - instead of final_score, predict exam_grade, hours_needed, or future_score
+    - Try different missing value strategies
+      - replace missing values with mean
+      - replace with median
+      - remove rows with missing values
+    - Use a different feature encoding
+      - map categories manually
+      - use pandas.get_dummies()
 
 Lesson 9: Intro to scikit-learn
 - Goal: Show a complete ML workflow
@@ -37,68 +62,9 @@ Lesson 12: Code lab
 - Activity: Tune parameters and compare results
 
 
-
-## Explain classification and
-
 # Week 2 Starter Code
 
-This folder contains a simple machine learning example for Week 2.
+This folder contains two simple machine learning example for Week 2.
+spam_detector_starter.py
+house_price_predictor.py
 
-## Simple Spam Detector
-
-```python
-# week2/spam_detector_starter.py
-
-from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.model_selection import train_test_split
-from sklearn.naive_bayes import MultinomialNB
-
-# Tiny dataset of messages
-messages = [
-    "Free prize winner! Click now",
-    "Hi team, meeting at 3pm",
-    "You have won a cash reward",
-    "Can we talk later?",
-    "Claim your free gift today",
-    "Let's review the project",
-    "Urgent: click this link",
-    "Please send the notes",
-]
-
-labels = [1, 0, 1, 0, 1, 0, 1, 0]  # 1 = spam, 0 = not spam
-
-# Turn text into numbers
-vectorizer = CountVectorizer()
-X = vectorizer.fit_transform(messages)
-
-# Split into training and testing data
-X_train, X_test, y_train, y_test = train_test_split(X, labels, test_size=0.25, random_state=42)
-
-# Train a simple model
-model = MultinomialNB()
-model.fit(X_train, y_train)
-
-# Test the model
-accuracy = model.score(X_test, y_test)
-print(f"Model accuracy: {accuracy:.2f}")
-
-# Try new samples
-new_samples = [
-    "Free prize click here",
-    "Can we meet tomorrow?",
-    "Urgent reward",
-    "Project is ready",
-]
-
-for sample in new_samples:
-    sample_vector = vectorizer.transform([sample])
-    prediction = model.predict(sample_vector)[0]
-    label = "spam" if prediction == 1 else "not spam"
-    print(f"Sample: {sample} -> {label}")
-```
-
-## Challenge
-
-- Add more messages to the training data
-- Try a different model from scikit-learn
-- Create a sentiment classifier for movie reviews
