@@ -91,7 +91,8 @@ Lesson 12: Code lab
 # Week 2 Starter Code
 
 This folder contains machine learning examples for Week 2:
-spam_detector_starter.py
-house_price_predictor.py
-preperation.py
+- spam_detector_starter.py
+- house_price_predictor.py
+- preperation.py
+- explore_scikit-learn.py
 
