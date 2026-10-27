@@ -44,8 +44,34 @@ Lesson 8: Data preprocessing
       - use pandas.get_dummies()
 
 Lesson 9: Intro to scikit-learn
-- Goal: Show a complete ML workflow
-- Activity: Train a logistic regression model
+- Goal: Show a complete ML workflow and learn how to use scikit-learn
+- Activity: Train a logistic regression model. Use explore_scikit-learn.py
+  - The code teaches
+    - practice using the scikit-learn documentation
+    - where to find the right classifier
+    - to look up functions and parameters
+  - Good things to find on the scikit-learn site:
+    - what load_iris does
+    - what train_test_split does
+    - what LogisticRegression does
+    - what max_iter does
+    - what accuracy_score does
+    - how to read the docstrings and examples
+  - Assignments you can do:
+    - Replace LogisticRegression with another model they find on the scikit-learn site
+    - Change test_size from 0.25 to 0.2 or 0.3
+    - Try a different dataset from scikit-learn
+    - Read the docs and explain what random_state does
+    - Look up how to print the model coefficients or probabilities
+  - Examples of models you can search for:
+    - DecisionTreeClassifier
+    - KNeighborsClassifier
+    - RandomForestClassifier
+    - SVC
+    - GaussianNB
+
+
+
 
 ## Meeting 4
 
@@ -64,7 +90,8 @@ Lesson 12: Code lab
 
 # Week 2 Starter Code
 
-This folder contains two simple machine learning example for Week 2.
+This folder contains machine learning examples for Week 2:
 spam_detector_starter.py
 house_price_predictor.py
+preperation.py
 
