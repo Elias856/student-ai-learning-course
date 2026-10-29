@@ -76,7 +76,7 @@ Lesson 9: Intro to scikit-learn
 ## Meeting 4
 
 ```python
-#Denne springes over: Lesson 10: Build a simple spam detector or sentiment model
+#Denne springes over: Lesson 10: Build a simple spam detector or sentiment model 
 #- Goal: Use text data for classification*
 #- Activity: Create a tiny dataset and train a model*
 ```
