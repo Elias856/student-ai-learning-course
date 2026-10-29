@@ -84,7 +84,7 @@ Lesson 9: Intro to scikit-learn
 Lesson 11: Model evaluation
 - Goal: Explain accuracy and confusion matrix
 - Activity: Discuss what bad accuracy means
-  - Use, understand and modify preperation.py
+  - Use, understand and modify accuracy_and_confusion.py
   - Read the pages:
     - Accuracy score: https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html
     - Confusion matrix: https://scikit-learn.org/stable/modules/generated/sklearn.metrics.confusion_matrix.html
