@@ -75,10 +75,11 @@ Lesson 9: Intro to scikit-learn
 
 ## Meeting 4
 
-*Spring lesson 10 over, da vi har arbejdet med classification*
-*Lesson 10: Build a simple spam detector or sentiment model*
-*- Goal: Use text data for classification*
-*- Activity: Create a tiny dataset and train a model*
+```python
+#Denne springes over: Lesson 10: Build a simple spam detector or sentiment model
+#- Goal: Use text data for classification*
+#- Activity: Create a tiny dataset and train a model*
+```
 
 Lesson 11: Model evaluation
 - Goal: Explain accuracy and confusion matrix
