@@ -75,17 +75,48 @@ Lesson 9: Intro to scikit-learn
 
 ## Meeting 4
 
-Lesson 10: Build a simple spam detector or sentiment model
-- Goal: Use text data for classification
-- Activity: Create a tiny dataset and train a model
+*Spring lesson 10 over, da vi har arbejdet med classification*
+*Lesson 10: Build a simple spam detector or sentiment model*
+*- Goal: Use text data for classification*
+*- Activity: Create a tiny dataset and train a model*
 
 Lesson 11: Model evaluation
 - Goal: Explain accuracy and confusion matrix
 - Activity: Discuss what bad accuracy means
+  - Use, understand and modify preperation.py
+  - Read the pages:
+    - Accuracy score: https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html
+    - Confusion matrix: https://scikit-learn.org/stable/modules/generated/sklearn.metrics.confusion_matrix.html
+    - Model evaluation overview: https://scikit-learn.org/stable/modules/model_evaluation.html
+  - What happens, when the data are good and when they are bad?
+
 
 Lesson 12: Code lab
-- Goal: Students test their own ideas
+- Goal: Test your own ideas
 - Activity: Tune parameters and compare results
+  - Use and modify own_idea_starter.py
+  - Read the nessesary docs in the links
+  - Answer the questions in the code as comments, like this: # Answer: ...
+  - Modify several of these
+    - Change the dataset
+    - Add more features
+    - Remove a feature
+    - Change test_size
+    - Change random_state
+    - Replace LogisticRegression with:
+      - DecisionTreeClassifier
+      - RandomForestClassifier
+      - KNeighborsClassifier
+      - SVC
+    - Try a different problem:
+      - spam or not spam
+      - pass or fail
+      - cat or dog
+      - happy or sad review
+    - Add more rows and check whether the model improves
+  - Upload your python-file to Studie+
+
+
 
 
 # Week 2 Starter Code
@@ -95,4 +126,6 @@ This folder contains machine learning examples for Week 2:
 - house_price_predictor.py
 - preperation.py
 - explore_scikit-learn.py
+- accuracy_and_confusion.py
+- own_idea_starter.py
 

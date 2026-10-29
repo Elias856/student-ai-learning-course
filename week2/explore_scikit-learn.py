@@ -3,6 +3,7 @@
 #
 # Read these pages:
 # https://scikit-learn.org/stable/modules/classes.html
+#   You se all the classes. In the left menu, you can se the classes in sections. A good place to cearch
 # https://scikit-learn.org/stable/datasets/toy_dataset.html
 # https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html
 # https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html
